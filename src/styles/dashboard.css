@@ -1,0 +1,10 @@
+.dashboard-empty {
+  text-align: center;
+  margin-top: 50px;
+  color: gray;
+}
+
+.dashboard-empty img {
+  width: 150px;
+  opacity: 0.7;
+}

@@ -1,0 +1,34 @@
+.task-card {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+  transition: 0.3s;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.task-card .priority-high {
+  border-left: 5px solid #ff1744;
+}
+
+.task-card .priority-medium {
+  border-left: 5px solid #ff9800;
+}
+
+.task-card .priority-low {
+  border-left: 5px solid #4caf50;
+}
+
+.task-card .task-buttons button {
+  margin-right: 5px;
+}
+.task-card .task-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+

@@ -1,0 +1,31 @@
+.header-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1976d2;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header-toolbar .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-toolbar .logout-btn {
+  margin-left: 10px;
+  color: white;
+}
+@media (max-width: 600px) {
+  .header-toolbar .user-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-toolbar .logout-btn {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
+

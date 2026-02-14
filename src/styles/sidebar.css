@@ -1,0 +1,29 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+  background: linear-gradient(180deg, #1976d2 0%, #2196f3 100%);
+  color: white;
+}
+
+.sidebar button {
+  background-color: #ff4081;
+  margin-bottom: 15px;
+}
+
+.sidebar .project-item {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: 0.2s;
+}
+
+.sidebar .project-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar .project-item.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+}
